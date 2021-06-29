@@ -10,7 +10,7 @@
 
 <p>This form will be submitted using the POST method:</p>
 
-<form action="/submit" target="_blank" method="post">
+<form action="{{ url_for('submit')}}" target="_blank" method="post">
   <label for="physics">physics:</label><br>
   <input type="text" id="physics" name="physics" value="0"><br>
   <label for="chemistry">chemistry:</label><br>
